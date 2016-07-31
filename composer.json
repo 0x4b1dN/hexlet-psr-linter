@@ -1,0 +1,18 @@
+{
+    "name": "0x4b1dn/hexlet-psr-linter",
+    "description": "Php psr linter",
+    "require": {
+        "nikic/php-parser": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "0x4b1dN",
+            "email": "0x4b1dN@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "PhpLinter\\": "src/"
+      }
+    }
+}
