@@ -4,6 +4,9 @@
     "require": {
         "nikic/php-parser": "^2.1"
     },
+    "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master"
+    },
     "authors": [
         {
             "name": "0x4b1dN",
