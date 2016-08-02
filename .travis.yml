@@ -1,6 +1,9 @@
 language: php
 php:
   - '7.0'
+addons:
+    code_climate:
+        repo_token: CODECLIMATE_TOKEN
 
 install:
   - composer self-update
