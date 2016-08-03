@@ -1,4 +1,6 @@
 engines:
+  phpmd:
+    enabled: true
   duplication:
     enabled: true
     config:
@@ -6,10 +8,8 @@ engines:
       - php
   fixme:
     enabled: true
-  phpmd:
-    enabled: true
-  ratings:
-    paths:
-    - "**.php"
-#exclude_paths:
-#- tests/
+ratings:
+  paths:
+  - "**.php"
+exclude_paths:
+  - test/
