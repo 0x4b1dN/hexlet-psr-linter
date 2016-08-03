@@ -8,5 +8,8 @@ engines:
     enabled: true
   phpmd:
     enabled: true
-exclude_paths:
-- tests/
+  ratings:
+    paths:
+    - "**.php"
+#exclude_paths:
+#- tests/
