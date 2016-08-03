@@ -2,13 +2,16 @@
     "name": "0x4b1dn/hexlet-psr-linter",
     "description": "Php psr linter",
     "require": {
-        "nikic/php-parser": "^2.1"
+        "nikic/php-parser": "^2.1",
+        "php": ">=7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.2",
-        "squizlabs/php_codesniffer": "2.*",
-        "codeclimate/php-test-reporter": "dev-master"
+        "phpunit/phpunit": "^5.4",
+        "squizlabs/php_codesniffer": "^2.6",
+        "satooshi/php-coveralls": "^1.0",
+        "codeclimate/php-test-reporter": "^0.3.2"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "0x4b1dN",
@@ -16,8 +19,8 @@
         }
     ],
     "autoload": {
-      "psr-4": {
-        "PhpLinter\\": "src/"
-      }
+        "psr-4": {
+            "PhpLinter\\": "src/"
+        }
     }
 }
