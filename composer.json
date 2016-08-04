@@ -1,5 +1,8 @@
 {
     "name": "0x4b1dn/hexlet-psr-linter",
+    "bin": [
+        "bin/hexlet-psr-linter"
+    ],
     "description": "Php psr linter",
     "require": {
         "nikic/php-parser": "^2.1",
